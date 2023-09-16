@@ -1,0 +1,13 @@
+/* Write your CSS code here */
+.blogs-list {
+    list-style-type: none;
+    width: 95%;
+    padding-left: 0;
+    margin: auto;
+}
+
+@media (min-width: 992px) {
+    .blogs-list {
+        width: 75%;
+    }
+}
